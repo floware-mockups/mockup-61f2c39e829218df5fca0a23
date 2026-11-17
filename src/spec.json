@@ -1,0 +1,307 @@
+{
+  "title": "Gestione prenotazioni sale",
+  "description": "Prototipo per consultare il calendario settimanale e gestire le prenotazioni delle sale riunioni di un ufficio comunale.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle prenotazioni e accesso rapido al calendario settimanale.",
+      "metrics": [
+        {
+          "label": "Prenotazioni settimana",
+          "value": "18"
+        },
+        {
+          "label": "Sale disponibili oggi",
+          "value": "3"
+        },
+        {
+          "label": "Ore prenotate",
+          "value": "42"
+        },
+        {
+          "label": "Richieste da confermare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Sala",
+        "Giorno",
+        "Orario",
+        "Referente",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Sala Lumo",
+          "Lunedì",
+          "09:00–10:30",
+          "Gruppo Vela",
+          "Confermata"
+        ],
+        [
+          "Sala Nubi",
+          "Martedì",
+          "11:00–12:00",
+          "Ufficio Arco",
+          "Da confermare"
+        ],
+        [
+          "Sala Riva",
+          "Mercoledì",
+          "14:00–16:00",
+          "Gruppo Lume",
+          "Confermata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "calendario-settimanale",
+      "title": "Calendario settimanale",
+      "description": "Visualizzazione delle prenotazioni per sala e fascia oraria nella settimana corrente.",
+      "metrics": [
+        {
+          "label": "Settimana",
+          "value": "12–16 maggio"
+        },
+        {
+          "label": "Sale in calendario",
+          "value": "4"
+        },
+        {
+          "label": "Fasce occupate",
+          "value": "18"
+        }
+      ],
+      "columns": [
+        "Sala",
+        "Giorno",
+        "Orario",
+        "Referente",
+        "Motivo",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Sala Lumo",
+          "Lunedì",
+          "09:00–10:30",
+          "Gruppo Vela",
+          "Riunione operativa",
+          "Confermata"
+        ],
+        [
+          "Sala Riva",
+          "Lunedì",
+          "13:00–14:00",
+          "Ufficio Arco",
+          "Pianificazione",
+          "Confermata"
+        ],
+        [
+          "Sala Nubi",
+          "Martedì",
+          "10:00–11:30",
+          "Gruppo Lume",
+          "Incontro interno",
+          "Confermata"
+        ],
+        [
+          "Sala Nubi",
+          "Martedì",
+          "14:00–15:00",
+          "Gruppo Vela",
+          "Verifica attività",
+          "Da confermare"
+        ],
+        [
+          "Sala Lumo",
+          "Mercoledì",
+          "09:30–11:00",
+          "Ufficio Arco",
+          "Coordinamento",
+          "Confermata"
+        ],
+        [
+          "Sala Riva",
+          "Mercoledì",
+          "14:00–16:00",
+          "Gruppo Lume",
+          "Riunione periodica",
+          "Confermata"
+        ],
+        [
+          "Sala Brina",
+          "Giovedì",
+          "11:00–12:00",
+          "Gruppo Vela",
+          "Revisione programma",
+          "Confermata"
+        ],
+        [
+          "Sala Lumo",
+          "Venerdì",
+          "09:00–10:00",
+          "Ufficio Arco",
+          "Pianificazione",
+          "Da confermare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "prenotazioni",
+      "title": "Prenotazioni",
+      "description": "Consulta e filtra le richieste, oppure registra una nuova prenotazione.",
+      "metrics": [
+        {
+          "label": "Prenotazioni totali",
+          "value": "18"
+        },
+        {
+          "label": "Confermate",
+          "value": "15"
+        },
+        {
+          "label": "Da confermare",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Sala",
+        "Giorno",
+        "Orario",
+        "Referente",
+        "Motivo",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Sala Lumo",
+          "Lunedì",
+          "09:00–10:30",
+          "Gruppo Vela",
+          "Riunione operativa",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Sala Riva",
+          "Lunedì",
+          "13:00–14:00",
+          "Ufficio Arco",
+          "Pianificazione",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Sala Nubi",
+          "Martedì",
+          "10:00–11:30",
+          "Gruppo Lume",
+          "Incontro interno",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Sala Nubi",
+          "Martedì",
+          "14:00–15:00",
+          "Gruppo Vela",
+          "Verifica attività",
+          "3",
+          "Da confermare"
+        ],
+        [
+          "Sala Lumo",
+          "Mercoledì",
+          "09:30–11:00",
+          "Ufficio Arco",
+          "Coordinamento",
+          "7",
+          "Confermata"
+        ],
+        [
+          "Sala Riva",
+          "Mercoledì",
+          "14:00–16:00",
+          "Gruppo Lume",
+          "Riunione periodica",
+          "8",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Sala",
+        "Giorno",
+        "Orario",
+        "Referente",
+        "Motivo",
+        "Partecipanti",
+        "Stato"
+      ]
+    },
+    {
+      "id": "sale",
+      "title": "Sale riunioni",
+      "description": "Consulta le sale disponibili e le loro caratteristiche principali.",
+      "metrics": [
+        {
+          "label": "Sale attive",
+          "value": "4"
+        },
+        {
+          "label": "Capienza complessiva",
+          "value": "36"
+        }
+      ],
+      "columns": [
+        "Sala",
+        "Capienza",
+        "Dotazioni",
+        "Disponibilità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Sala Lumo",
+          "10",
+          "Schermo, lavagna",
+          "Lunedì–Venerdì",
+          "Attiva"
+        ],
+        [
+          "Sala Riva",
+          "8",
+          "Lavagna, videoproiettore",
+          "Lunedì–Venerdì",
+          "Attiva"
+        ],
+        [
+          "Sala Nubi",
+          "12",
+          "Schermo, conferenza",
+          "Lunedì–Venerdì",
+          "Attiva"
+        ],
+        [
+          "Sala Brina",
+          "6",
+          "Lavagna",
+          "Lunedì–Giovedì",
+          "Attiva"
+        ]
+      ],
+      "form": [
+        "Sala",
+        "Capienza",
+        "Dotazioni",
+        "Disponibilità",
+        "Stato"
+      ]
+    }
+  ]
+}
